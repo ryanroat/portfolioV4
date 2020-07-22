@@ -38,7 +38,7 @@
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
-    --fs-logo: 4.5rem;
+    --fs-logo: 4rem;
   }
 }
 
@@ -112,7 +112,10 @@ h3 {
 .logo {
   font-family: var(--ff-logo);
   font-size: var(--fs-logo);
-  color: var(--clr-accent1);
+  color: var(--clr-dark);
+  -webkit-text-fill-color: var(--clr-accent1);
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--clr-dark);
   text-decoration: none;
 }
 
@@ -196,6 +199,47 @@ header {
 
 .nav__link:hover {
   color: var(--clr-accent1);
+}
+
+.nav-toggle {
+  padding: 0.5em;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  z-index: 1000;
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+}
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background: var(--clr-dark);
+  width: 2em;
+  height: 3px;
+  border-radius: 1em;
+  transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.hamburger::before {
+  top: 6px;
+}
+
+.hamburger::after {
+  bottom: 6px;
 }
 
 /* Intro Section */
