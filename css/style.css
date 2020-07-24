@@ -413,6 +413,7 @@ header {
 }
 
 .calendar {
+  max-width: 1000px;
   background-color: var(--clr-accent3);
   color: var(--clr-accent1);
 }
