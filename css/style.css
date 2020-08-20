@@ -466,14 +466,19 @@ header {
   background: var(--clr-accent2);
   color: var(--clr-dark);
   text-align: center;
-  padding: 1.5em 0;
+  padding-top: 1.5em;
   font-size: var(--fs-h3);
   font-weight: var(--fw-bold);
+}
+
+.footer-message {
+  font-size: var(--fs-h3);
 }
 
 .footer a {
   color: inherit;
   padding: 0.5em;
+  text-decoration:  none;
 }
 
 .footer__link:hover,
@@ -491,6 +496,13 @@ header {
 
 .social-list__item {
   margin: 0 1em;
+}
+
+.footer-notes {
+  margin-top: 1rem;
+  border-top: 3.5px var(--clr-dark) solid;
+  padding-top: 1rem;
+  font-size: var(--fs-body);
 }
 
 /* .social-list__link {
