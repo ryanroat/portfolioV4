@@ -456,6 +456,10 @@ header {
   opacity: 0.625;
 }
 
+.portfolio-item__img {
+  box-shadow: var(--bs);
+}
+
 /* footer */
 
 .footer {
