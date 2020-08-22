@@ -36,7 +36,7 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="./index.html" class="nav__link">Home</a>
+            <a href="./index.html#home" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
             <a href="./index.html#services" class="nav__link">My Services</a>
@@ -46,6 +46,9 @@
           </li>
           <li class="nav__item">
             <a href="./index.html#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -87,34 +90,41 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer">
-      <a href="mailto:ryanroat@gmail.com" class="footer__link"
-        ><i class="fas fa-envelope-square"></i
-      ></a>
+    <footer class="footer" id="contact">
+      <div class="footer-message">Let's work together.  Contact me:</div>
       <ul class="social-list">
+        <li class="social-list__item">
+          <a href="mailto:ryanroat@gmail.com" class="social-list__link"
+            ><i class="fas fa-envelope-square"></i
+          > Email me</a>
+        </li>
         <li class="social-list__item">
           <a href="https://github.com/ryanroat" class="social-list__link"
             ><i class="fab fa-github-square"></i
-          ></a>
+          > Github</a>
         </li>
         <li class="social-list__item">
           <a
             href="https://www.linkedin.com/in/ryanroat/"
             class="social-list__link"
             ><i class="fab fa-linkedin"></i
-          ></a>
+          > LinkedIn</a>
         </li>
         <li class="social-list__item">
           <a href="https://twitter.com/ryanroat" class="social-list__link"
             ><i class="fab fa-twitter-square"></i
-          ></a>
+          > Twitter</a>
         </li>
         <li class="social-list__item">
           <a href="https://codepen.io/ryanroat" class="social-list__link"
             ><i class="fab fa-codepen"></i
-          ></a>
+          > CodePen</a>
+        </li>
+        <li class="social-list__item">
+          <a href="tel:555-555-5555" class="social-list__link"><i class="fas fa-sms"></i> Text or Call me <i class="fas fa-mobile-alt"></i></a>
         </li>
       </ul>
+      <div class="footer-notes">&copy; 2020 designed by RSR70</div>
     </footer>
     <!-- / Footer -->
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
