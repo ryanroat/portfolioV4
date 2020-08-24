@@ -456,10 +456,6 @@ header {
   opacity: 0.625;
 }
 
-.portfolio-item__img {
-  box-shadow: var(--bs);
-}
-
 /* footer */
 
 .footer {
@@ -524,7 +520,13 @@ header {
 }
 
 .portfolio-item-individual p {
+  /* text-align: center; */
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.portfolio-item__img {
+  margin: 0 auto;
+  box-shadow: var(--bs);
 }
