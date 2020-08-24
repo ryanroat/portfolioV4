@@ -113,6 +113,10 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+.center {
+  text-align: center;
+}
+
 .logo {
   font-family: var(--ff-logo);
   font-size: var(--fs-logo);
