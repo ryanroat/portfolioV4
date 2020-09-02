@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 // import { GitHubCalendar } from './github-calendar.js';
 
 const navToggle = document.querySelector('.nav-toggle');
